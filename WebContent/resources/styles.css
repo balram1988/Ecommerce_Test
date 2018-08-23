@@ -1,0 +1,112 @@
+.heading-wrapper {
+    height: 66px;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #38b6e8;
+    -webkit-box-shadow: 0 2px 5px rgba(166,166,166,0.25);
+    -moz-box-shadow: 0 2px 5px rgba(166,166,166,0.25);
+    box-shadow: 0 2px 5px rgba(166,166,166,0.25);
+    background: linear-gradient(#fff 30%,#f4f4f4 70%);
+    text-align : center;
+}
+
+.footer-wrapper {
+    background-color: #e9f5fb;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.product-name .x-form-display-field.x-form-display-field-default {
+	font-family: "GT-Eesti 3r", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 22.425px;
+	color: #050708;
+	line-height: 38px;
+    letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+
+.thumb-wrap .product-name,.favorites-list .product-name {
+	border-bottom: none;
+	font-size: 13px;
+	text-transform: none;
+	font-family: "GT-Eesti 3r", Arial, sans-serif;
+	color: #050708;
+	padding: 0; text-align : left; display : block;
+	float: none;
+	width: auto;
+	text-align: left;
+	display: block;
+}
+
+.quicklook-link {
+	padding: 5px 5px;
+	text-decoration: underline;
+	font-size: 11px;
+	font-family: "GT-Eesti 3r", Arial, sans-serif;
+}
+
+.product-price {
+	padding-left: 5px;
+	margin-bottom: 15px;
+	padding: 0;
+	background: none;
+	font-family: "GT-Eesti 5r", Arial, sans-serif;
+	font-weight: 600;
+	color: #af1a31;
+	font-size: 10px !important;
+	line-height: normal !important;
+	text-align: left !important;
+}
+
+.product-orig-price {
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: normal;
+	display: flex;
+}
+
+ .product-tile-wrapper {
+	height: 305px;
+	width: 300px;
+	float: left;
+	cursor: pointer !important;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 4px 4px 0 rgba(40, 40, 40, 0.12); . logo-img { width :
+	100%;
+	height: 70px;
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+
+*{box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
